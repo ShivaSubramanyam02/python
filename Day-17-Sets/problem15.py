@@ -1,0 +1,5 @@
+letters = set("mississippi")
+unique_letters = len(letters)
+print(f"unique letters : {unique_letters}")
+letters.remove("i")
+print(letters)
